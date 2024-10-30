@@ -1,0 +1,36 @@
+/**
+ * This file is part of Koumpounophobia. Please see the Kphobia.php file
+ * for copyright and license information.
+ *
+ * @author Michael Toppa
+ * @version 0.5
+ * @package Koumpounophobia
+ */
+
+.kphobia_dialog {
+    background-color: #F1F1F1;
+    padding: 5px;
+}
+
+.ui-dialog-titlebar {
+    background-color: #222222;
+    padding: 2px;
+    color: #CFCFCF;
+    vertical-align: middle;
+    position: relative;
+}
+
+.ui-dialog-titlebar-close {
+    text-decoration: none;
+    color: #FFFFFF;
+    position: absolute;
+    right: 2px;
+}
+
+.kphobia_dialog * .form-table {
+    width: auto;
+}
+
+.kphobia_dialog * .form-table th {
+    width: auto;
+}

@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-18 07:20-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: display/options.php:16
+msgid "Koumpounophobia Settings"
+msgstr ""
+
+#: display/options.php:18
+msgid "Koumpounophobia Help"
+msgstr ""
+
+#: display/options.php:26
+msgid "Koumpounophobia Built-in Buttons"
+msgstr ""
+
+#: display/options.php:30 display/options.php:49
+#, php-format
+msgid "Use <strong>%s</strong> button?"
+msgstr ""
+
+#: display/options.php:33 display/options.php:52 Kphobia.php:305
+#: Kphobia.php:317 Kphobia.php:323
+msgid "Yes"
+msgstr ""
+
+#: display/options.php:36 display/options.php:55 Kphobia.php:305
+#: Kphobia.php:317 Kphobia.php:323
+msgid "No"
+msgstr ""
+
+#: display/options.php:41
+msgid "Koumpounophobia settings data has been deleted or corrupted"
+msgstr ""
+
+#: display/options.php:45
+msgid "Buttons From Other Plugins"
+msgstr ""
+
+#: display/options.php:60
+msgid "No buttons from other plugins are currently registered."
+msgstr ""
+
+#: display/options.php:64
+msgid "Your Custom Buttons"
+msgstr ""
+
+#: display/options.php:68 display/options.php:108
+msgid "Name"
+msgstr ""
+
+#: display/options.php:87
+msgid "Delete"
+msgstr ""
+
+#: display/options.php:93
+msgid "You have not added any custom buttons yet."
+msgstr ""
+
+#: display/options.php:97
+msgid "Save Options"
+msgstr ""
+
+#: display/options.php:104
+msgid "Add a Custom Button"
+msgstr ""
+
+#: display/options.php:110
+msgid ""
+"A name to refer to your button. This will be the label shown on the button "
+"in the HTML Editor, so it should be short."
+msgstr ""
+
+#: display/options.php:137
+msgid "Add Button"
+msgstr ""
+
+#: display/options.php:141 display/options.php:153
+msgid "Uninstall Koumpounophobia"
+msgstr ""
+
+#: display/options.php:147
+msgid "Uninstall Koumpounophobia?"
+msgstr ""
+
+#: display/options.php:149
+msgid ""
+"Check this box if you want to completely remove Koumpounophobia. "
+"<strong>This will permanently remove any Koumpounophobia-based custom "
+"buttons in your HTML Editor.</strong> After uninstalling, you can then "
+"deactivate Koumpounophobia on your plugins management page."
+msgstr ""
+
+#: display/options.php:153
+msgid "Are you sure you want to uninstall Koumpounophobia?"
+msgstr ""
+
+#: display/options.php:157
+msgid "Tipping: it isn't just for cows"
+msgstr ""
+
+#: display/options.php:159
+msgid ""
+"I develop and maintain my WordPress plugins for the love of course, but a "
+"tip would be nice :-) Thanks!"
+msgstr ""
+
+#: Kphobia.php:290
+msgid "Tag"
+msgstr ""
+
+#: Kphobia.php:291
+msgid ""
+"The tag your button will insert, not including delimiters (do not include "
+"&lt; &gt; or [ ] delimiters)"
+msgstr ""
+
+#: Kphobia.php:295
+msgid "Title"
+msgstr ""
+
+#: Kphobia.php:296
+msgid ""
+"Title text for your button; appears as mouseover help text in most browsers"
+msgstr ""
+
+#: Kphobia.php:300
+msgid "ID"
+msgstr ""
+
+#: Kphobia.php:301
+msgid ""
+"The id of your button. This should start with \"ed_\" (for example, \"ed_span"
+"\"). If you use the id of a button already in the  button bar, it will "
+"replace that button"
+msgstr ""
+
+#: Kphobia.php:306
+msgid "Self closing tag"
+msgstr ""
+
+#: Kphobia.php:307
+msgid ""
+"Whether your tag self closes (like an &lt;img /&gt; tag) or has a separate "
+"closing tag (like a &lt;/p&gt; tag)"
+msgstr ""
+
+#: Kphobia.php:311
+msgid "Shortcode"
+msgstr ""
+
+#: Kphobia.php:311
+msgid "HTML"
+msgstr ""
+
+#: Kphobia.php:312
+msgid "Tag type"
+msgstr ""
+
+#: Kphobia.php:313
+msgid ""
+"Whether your tag is a shortcode tag (with [ ] delimiters) or an HTML tag "
+"(with &lt; &gt; delimiters)"
+msgstr ""
+
+#: Kphobia.php:318
+msgid "Enabled"
+msgstr ""
+
+#: Kphobia.php:319
+msgid ""
+"Whether your button is enabled in the button bar, or disabled and not shown "
+"in the button bar"
+msgstr ""
+
+#: Kphobia.php:324
+msgid "Custom Dialog"
+msgstr ""
+
+#: Kphobia.php:325
+msgid ""
+"Select 'yes' to enable a custom input dialog for your button. The dialog is "
+"where you can accept user input for your tag's attributes. For example, if "
+"you are creating a button for the &lt;img&gt; tag, you would have your form "
+"dialog ask the user to provide the value for the 'src' attribute. All custom "
+"dialogs belong in your plugin directory, in the file kphobia/display/"
+"custom_dialogs.html (you'll need to create this file). Use the dialogs in "
+"kphobia/display/dialogs.html file as models for creating your custom "
+"dialogs. <strong>Important:</strong> you must give your dialog elements IDs "
+"that follow the naming conventions you see in dialogs.html (for example, "
+"kphobia_<em>yourButtonName</em>_dialog)."
+msgstr ""
+
+#: Kphobia.php:339
+msgid ""
+"Koumpounophobia has been uninstalled. You can now deactivate Koumpounophobia "
+"on your plugins management page."
+msgstr ""
+
+#: Kphobia.php:343
+msgid "Uninstall of Koumpounophobia failed. Database error:"
+msgstr ""
+
+#: Kphobia.php:349
+msgid ""
+"You must check the 'Uninstall Koumpounophobia' checkbox to confirm you want "
+"to uninstall Koumpounophobia"
+msgstr ""
+
+#: Kphobia.php:384
+msgid "Button created."
+msgstr ""
+
+#: Kphobia.php:389
+msgid "Settings not saved. All fields for a new button are required."
+msgstr ""
+
+#: Kphobia.php:405
+msgid "Button deleted. "
+msgstr ""
+
+#: Kphobia.php:412
+msgid "Koumpounophobia settings saved."
+msgstr ""
